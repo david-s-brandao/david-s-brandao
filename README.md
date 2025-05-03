@@ -56,6 +56,7 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=1240577-DavidBrandao&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=1240577-DavidBrandao&theme=tokyonight&hide_border=true" alt="GitHub Streak">
+  </br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1240577-DavidBrandao&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages">
 </div>
 
