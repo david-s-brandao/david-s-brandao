@@ -75,5 +75,5 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1240577-DavidBrandao/1240577-DavidBrandao/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Grid Snake">
+  <img src="https://raw.githubusercontent.com/1240577-DavidBrandao/david-s-brandao/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Grid Snake">
 </div>
