@@ -65,10 +65,10 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 ## 🌟 Featured Projects
 <div align="center">
   <a href="https://github.com/1240577-DavidBrandao/SugarVault">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1240577-DavidBrandao&repo=SugarVault&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=david-s-brandao&repo=SugarVault&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/1240577-DavidBrandao/RaspberryPI-Projects">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=1240577-DavidBrandao&repo=RaspberryPI-Projects&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=david-s-brandao&repo=RaspberryPI-Projects&theme=tokyonight&hide_border=true" />
   </a>
 </div>
 
