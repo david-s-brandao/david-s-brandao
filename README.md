@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="wide.png" alt="David Brandão Banner" style="width:50%;max-width:200px;">
-</div>
+
 
 ---
 
