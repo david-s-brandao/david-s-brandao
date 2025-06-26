@@ -11,17 +11,17 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and curious mind. I thrive on tackling puzzles, crafting innovative solutions, and diving deep into the world of **cybersecurity**.
 
-- 🔐 Passionate about mastering **cybersecurity** with a future-focused mindset.
-- 🛠️ Currently working on a **Raspberry Pi projects** and **Chrome extensions**.
-- 🎯 Constantly seeking to improve through challenges and hands-on projects.
-- 📚 Lifelong learner, always exploring new horizons beyond traditional education.
+-  Passionate about mastering **cybersecurity** with a future-focused mindset.
+-  Currently working on a **Raspberry Pi projects** and **Chrome extensions**.
+-  Constantly seeking to improve through challenges and hands-on projects.
+-  Lifelong learner, always exploring new horizons beyond traditional education.
 
 ---
 
-## 🌐 Socials
+##  Socials
 <div align="center">
   <a href="https://linkedin.com/in/davidsbrandao">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -36,7 +36,7 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠 Technologies & Tools
 <div align="center">
   <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
   <img src="https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
@@ -50,7 +50,7 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=david-s-brandao&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=david-s-brandao&theme=tokyonight&hide_border=true" alt="GitHub Streak">
@@ -60,7 +60,7 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 
 ---
 
-## 🌟 Featured Projects
+##  Featured Projects
 <div align="center">
   <a href="https://github.com/1240577-DavidBrandao/SugarVault">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=david-s-brandao&repo=SugarVault&theme=tokyonight&hide_border=true" />
