@@ -1,32 +1,61 @@
-
-
----
-
 <div align="center">
   <h1>David Brandão</h1>
-  <p>
-    Developer | Cybersecurity Enthusiast | Problem Solver
-  </p>
 </div>
 
 ---
 
 ## About Me
-Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and curious mind. I thrive on tackling puzzles, crafting innovative solutions, and diving deep into the world of **cybersecurity**.
 
--  Passionate about mastering **cybersecurity** with a future-focused mindset.
--  Currently working on a **Raspberry Pi projects** and **Chrome extensions**.
--  Constantly seeking to improve through challenges and hands-on projects.
--  Lifelong learner, always exploring new horizons beyond traditional education.
+Hi! I'm **David Brandão**, a web developer from **Portugal** with a deep passion for creating interactive and visually engaging digital experiences.
+
+-  Currently exploring **React**, **Three.js**, and **Tailwind CSS**
+-  Focused on sharpening **UI/UX** design and accessibility best practices
+-  Love solving complex problems and learning how things work under the hood
+-  Building cool gadgets with Arduinos and Raspberry Pi in my spare time
 
 ---
 
+## Impactfull Projects
+
+>  Portfolio and personal projects coming soon!
+
+- [**Sugar Vault**](https://github.com/david-s-brandao/sugarvault) – Browser extension for allowing 'account' based cookies  
+- [**Fallout.pt**](https://github.com/david-s-brandao/fallout.pt) – A survival-themed web app inspired by fogos.pt
+- [**MindWeaver**](https://github.com/david-s-brandao/mindweaver) – A visuals first website built to easy the creation of mind maps
+- [**All Aboard**](https://github.com/david-s-brandao/all-aboard) – Railroad simulator built in java during the 1st year 2nd semester of the Computer Engineering course at ISEP (Earned an award as the best project of the year 2024/25)
+- More soon...
+
+---
+
+##  Technologies & Tools
+
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</div>
+
+---
+
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=david-s-brandao&show_icons=true&theme=transparent" />
+  
+</div>
+
+---
 ##  Socials
+
 <div align="center">
   <a href="https://linkedin.com/in/davidsbrandao">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://github.com/1240577-DavidBrandao">
+  <a href="https://github.com/david-s-brandao">
     <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="mailto:david.s.brandao@outlook.com">
@@ -36,14 +65,7 @@ Hi! I'm **David Brandão**, a developer from **Portugal** with a strategic and c
 
 ---
 
-## 🛠 Technologies & Tools
-<div align="center">
-  <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/AssemblyScript-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="AssemblyScript">
-</div>
+##  Let's Connect
+
+Want to chat tech, collaboration, or brainstorm ideas? Reach out via [LinkedIn](https://linkedin.com/in/davidsbrandao) or [Email](mailto:david.s.brandao@outlook.com)!
+
