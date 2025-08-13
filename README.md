@@ -6,12 +6,7 @@
 
 ## About Me
 
-Hi! I'm **David Brandão**, a web developer from **Portugal** with a deep passion for creating interactive and visually engaging digital experiences.
-
--  Currently exploring **React**, **Three.js**, and **Tailwind CSS**
--  Focused on sharpening **UI/UX** design and accessibility best practices
--  Love solving complex problems and learning how things work under the hood
--  Building cool gadgets with Arduinos and Raspberry Pi in my spare time
+Hi! I'm **David Brandão**, a Computer Engineering student from **Portugal** with a deep motivation to explore different areas. Currently I am exploring more and diving deep into **Ethical Hacking** / **Red Teamming** 
 
 ---
 
@@ -23,6 +18,7 @@ Hi! I'm **David Brandão**, a web developer from **Portugal** with a deep passio
 - [**Fallout.pt**](https://github.com/david-s-brandao/fallout.pt) – A survival-themed web app inspired by fogos.pt
 - [**MindWeaver**](https://github.com/david-s-brandao/mindweaver) – A visuals first website built to easy the creation of mind maps
 - [**All Aboard**](https://github.com/david-s-brandao/all-aboard) – Railroad simulator built in java during the 1st year 2nd semester of the Computer Engineering course at ISEP (Earned an award as the best project of the year 2024/25)
+- [**Raspberry PI Projects**](https://github.com/david-s-brandao/RaspberryPI-Projects) – Raspberry PI projects mainly using Python and Bash Scripting
 - More soon...
 
 ---
