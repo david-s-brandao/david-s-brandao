@@ -1,9 +1,6 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1FF1,55:0dAFFF,100:0dFFFF&height=200&section=header&text=David%20Brandao&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Informatics%20Engineering%20%E2%80%A2%20Cloud%20Architecting%20%E2%80%A2%20Networking%&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="David Brandao"/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=0d1FF1&center=true&vCenter=true&width=520&lines=%24+whoami;Informatics+Engineering+student+%40+ISEP;AWS Community Creator;Future+Architect;+TechU Candidate (maybe)" alt="Typing SVG"/></a>
-
 <p>
   <img src="https://img.shields.io/badge/Famalicao,%20Portugal-0d1117?style=for-the-badge&logo=googlemaps&logoColor=0dFFFF" alt="Famalicao, Portugal"/>
   <img src="https://img.shields.io/badge/ISEP-0d1117?style=for-the-badge&logo=bookstack&logoColor=0dFFFF" alt="ISEP"/>
