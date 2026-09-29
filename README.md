@@ -1,5 +1,5 @@
 # David Brandão
-Cloud & Infrastructure Engineering | Computer Engineering Student
+Cloud and Networking enthusiast | Computer Engineering Student
 
 Computer Engineering student focused on distributed systems, cloud infrastructure, and performance optimization. 
 
