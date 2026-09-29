@@ -2,12 +2,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1FF1,55:0dAFFF,100:0dFFFF&height=200&section=header&text=David%20Brandao&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Informatics%20Engineering%20%E2%80%A2%20Cloud%20Architecting%20%E2%80%A2%20Networking%&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="David Brandao"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=00FF9F&center=true&vCenter=true&width=520&lines=%24+whoami;Informatics+Engineering+student+%40+ISEP;CTF+player+with+CHA%C3%98S+%F0%9F%9A%A9;Erasmus+semester+%40+Aarhus+University;Future+offensive+security+engineer" alt="Typing SVG"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=0d1FF1&center=true&vCenter=true&width=520&lines=%24+whoami;Informatics+Engineering+student+%40+ISEP;AWS Community Creator;Future+Architect;+TechU Candidate (maybe)" alt="Typing SVG"/></a>
 
 <p>
-  <img src="https://img.shields.io/badge/Famalicao,%20Portugal-0d1117?style=for-the-badge&logo=googlemaps&logoColor=00ff9f" alt="Famalicao, Portugal"/>
-  <img src="https://img.shields.io/badge/ISEP-0d1117?style=for-the-badge&logo=bookstack&logoColor=00ff9f" alt="ISEP"/>
-  <img src="https://img.shields.io/badge/AWS Academy and NetAcad%20%20Student-0d1117?style=for-the-badge&logo=europeanunion&logoColor=00ff9f" alt="AWS Academy and NetAcad Student"/>
+  <img src="https://img.shields.io/badge/Famalicao,%20Portugal-0d1117?style=for-the-badge&logo=googlemaps&logoColor=0dFFFF" alt="Famalicao, Portugal"/>
+  <img src="https://img.shields.io/badge/ISEP-0d1117?style=for-the-badge&logo=bookstack&logoColor=0dFFFF" alt="ISEP"/>
+  <img src="https://img.shields.io/badge/AWS Academy and NetAcad%20%20Student-0d1117?style=for-the-badge&logo=europeanunion&logoColor=0dFFFF" alt="AWS Academy and NetAcad Student"/>
 </p>
 
 <p>
