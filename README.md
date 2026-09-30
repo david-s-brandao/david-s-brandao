@@ -18,7 +18,7 @@
 
 Hi, I am a third-year Informatics Engineering student at ISEP in Porto, currently seeking knowledge and being part of the AWS Builder Community. Had my first touch with cloud around a year ago and since then I decided it would be a nice area to expand my knowledge in.
 
-Also I am a bassist player for a traditional Portuguese group and a Portuguese Pop. Currently helping an 18 year old girl following her dream of becoming a professional singer.
+I've been a Bassist for 7 years now.
 
 > **Currently:** preparing for the AWS Solutions Architect Associate (C03)
 >
