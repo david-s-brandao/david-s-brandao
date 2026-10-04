@@ -1,6 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title description">
   <title id="title">David Brandão — Cloud + Networking Student</title>
-  <desc id="description">Building cloud systems, from the network up. AWS, serverless and infrastructure as code. A cloud connects to compute, code and storage nodes on a dark blue architectural grid.</desc>
+  <desc id="description">Building cloud systems, from the network up. AWS, serverless and infrastructure as code. Animated signals travel from a cloud to compute, code and storage nodes on a dark blue architectural grid.</desc>
+  <style>
+    .cloud-glow {
+      opacity: 0.08;
+      animation: cloud-glow 6s ease-in-out infinite;
+    }
+    .packet {
+      opacity: 0;
+      animation-duration: 6s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    .packet-compute { animation-name: to-compute; }
+    .packet-code { animation-name: to-code; animation-delay: -2s; }
+    .packet-storage { animation-name: to-storage; animation-delay: -4s; }
+    @keyframes cloud-glow {
+      0%, 100% { opacity: 0.08; }
+      50% { opacity: 0.24; }
+    }
+    @keyframes to-compute {
+      0% { transform: translate(952px, 171px); opacity: 0; }
+      8% { opacity: 1; }
+      25% { transform: translate(952px, 205px); }
+      82% { transform: translate(830px, 205px); opacity: 1; }
+      100% { transform: translate(830px, 225px); opacity: 0; }
+    }
+    @keyframes to-code {
+      0% { transform: translate(952px, 171px); opacity: 0; }
+      15%, 75% { opacity: 1; }
+      100% { transform: translate(952px, 225px); opacity: 0; }
+    }
+    @keyframes to-storage {
+      0% { transform: translate(952px, 171px); opacity: 0; }
+      8% { opacity: 1; }
+      25% { transform: translate(952px, 205px); }
+      82% { transform: translate(1074px, 205px); opacity: 1; }
+      100% { transform: translate(1074px, 225px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cloud-glow, .packet { animation: none; }
+    }
+  </style>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0D192B" />
@@ -56,6 +97,7 @@
       <path d="M952 169V205M830 225V213Q830 205 838 205H1066Q1074 205 1074 213V225M952 205V225" stroke="#4A8095" stroke-width="2" />
       <circle cx="952" cy="205" r="4" fill="#FFB454" />
 
+      <path class="cloud-glow" d="M924 169H980C994 169 1003 160 1003 148C1003 136 994 127 982 126C978 111 967 102 952 102C935 102 921 114 919 130C906 130 897 138 897 150C897 161 906 169 924 169Z" stroke="#73DCE8" stroke-width="12" />
       <path d="M924 169H980C994 169 1003 160 1003 148C1003 136 994 127 982 126C978 111 967 102 952 102C935 102 921 114 919 130C906 130 897 138 897 150C897 161 906 169 924 169Z" fill="#102D3D" stroke="#73DCE8" stroke-width="2.5" />
       <path d="M941 142L952 131L963 142M952 132V154" stroke="#73DCE8" stroke-width="2.5" />
 
@@ -70,6 +112,10 @@
       <rect x="1038" y="225" width="72" height="56" rx="10" fill="#102335" stroke="#3D647B" />
       <path d="M1060 244V262C1060 269 1088 269 1088 262V244M1060 253C1060 260 1088 260 1088 253" stroke="#9AB9D1" stroke-width="1.5" />
       <ellipse cx="1074" cy="244" rx="14" ry="5" fill="#102335" stroke="#9AB9D1" stroke-width="1.5" />
+
+      <circle class="packet packet-compute" r="3.5" fill="#FFB454" />
+      <circle class="packet packet-code" r="3.5" fill="#73DCE8" />
+      <circle class="packet packet-storage" r="3.5" fill="#FFB454" />
     </g>
   </g>
 

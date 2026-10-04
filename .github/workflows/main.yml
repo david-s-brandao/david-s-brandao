@@ -1,44 +1,35 @@
-# retirado de https://github.com/mari4souza/mari4souza/blob/main/.github/workflows/main.yml
-# This workflow generates a snake game from a github user contributions graph and push the result to a branch
-
-name: generate animation
+# Adapted from https://github.com/mari4souza/mari4souza/blob/main/.github/workflows/main.yml
+name: Update contribution animation
 
 on:
-  # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "17 6 * * *"
   workflow_dispatch:
-  
-  # run on every push on the master branch
   push:
     branches:
-    - master
-    
-  
+      - main
+
+concurrency:
+  group: contribution-animation
+  cancel-in-progress: true
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      - name: Generate light and dark contribution animations
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+            dist/github-contribution-grid-snake.svg?color_snake=#147B91&color_dots=#E8EEF5,#BDDFEA,#80C4D2,#46A2B5,#147B91
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FFB454&color_dots=#152336,#204557,#327082,#4AA7B5,#73DCE8
+
+      - name: Publish animations to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
