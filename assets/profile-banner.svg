@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">David Brandão — Cloud + Networking Student</title>
+  <desc id="description">Building cloud systems, from the network up. AWS, serverless and infrastructure as code. A cloud connects to compute, code and storage nodes on a dark blue architectural grid.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D192B" />
+      <stop offset="1" stop-color="#09111E" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(946 156) rotate(90) scale(245 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163F50" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#163F50" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="64" y1="0" x2="1136" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68D8E8" />
+      <stop offset="0.6" stop-color="#68D8E8" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#FFB454" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#83ADC8" stroke-opacity="0.07" />
+    </pattern>
+    <clipPath id="bounds">
+      <rect width="1200" height="360" rx="20" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="360" fill="url(#background)" />
+    <rect x="704" width="496" height="360" fill="url(#glow)" />
+    <rect x="704" width="496" height="360" fill="url(#grid)" />
+    <path d="M64 1H1136" stroke="url(#accent)" stroke-width="3" />
+    <path d="M64 284H644" stroke="#243449" />
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <rect x="64" y="65" width="28" height="3" rx="1.5" fill="#FFB454" />
+      <text x="108" y="72" fill="#73DCE8" font-size="15" font-weight="600" letter-spacing="3">CLOUD + NETWORKING STUDENT</text>
+      <text x="60" y="161" fill="#F0F6FC" font-size="72" font-weight="700" letter-spacing="-2.5">David Brandão</text>
+      <text x="64" y="211" fill="#B5C5D8" font-size="24">Building cloud systems,</text>
+      <text x="64" y="243" fill="#B5C5D8" font-size="24">from the network up.</text>
+      <g font-size="13" font-weight="500" letter-spacing="1.6">
+        <text x="64" y="317" fill="#FFB454">AWS</text>
+        <text x="111" y="317" fill="#486078">/</text>
+        <text x="133" y="317" fill="#A7BCD1">SERVERLESS</text>
+        <text x="253" y="317" fill="#486078">/</text>
+        <text x="275" y="317" fill="#A7BCD1">INFRASTRUCTURE AS CODE</text>
+      </g>
+    </g>
+
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <rect x="752" y="40" width="400" height="276" rx="16" fill="#0C1A2A" fill-opacity="0.7" stroke="#294156" />
+      <path d="M752 80H1152" stroke="#294156" />
+      <circle cx="774" cy="60" r="3" fill="#FFB454" />
+      <circle cx="788" cy="60" r="3" fill="#68D8E8" fill-opacity="0.7" />
+      <circle cx="802" cy="60" r="3" fill="#68D8E8" fill-opacity="0.3" />
+      <text x="1130" y="65" text-anchor="end" fill="#94AFC4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.5">ARCHITECTURE / 01</text>
+
+      <path d="M952 169V205M830 225V213Q830 205 838 205H1066Q1074 205 1074 213V225M952 205V225" stroke="#4A8095" stroke-width="2" />
+      <circle cx="952" cy="205" r="4" fill="#FFB454" />
+
+      <path d="M924 169H980C994 169 1003 160 1003 148C1003 136 994 127 982 126C978 111 967 102 952 102C935 102 921 114 919 130C906 130 897 138 897 150C897 161 906 169 924 169Z" fill="#102D3D" stroke="#73DCE8" stroke-width="2.5" />
+      <path d="M941 142L952 131L963 142M952 132V154" stroke="#73DCE8" stroke-width="2.5" />
+
+      <rect x="794" y="225" width="72" height="56" rx="10" fill="#102335" stroke="#3D647B" />
+      <rect x="816" y="241" width="28" height="10" rx="2" stroke="#9AB9D1" stroke-width="1.5" />
+      <rect x="816" y="255" width="28" height="10" rx="2" stroke="#9AB9D1" stroke-width="1.5" />
+      <path d="M822 246H825M822 260H825" stroke="#73DCE8" stroke-width="2" />
+
+      <rect x="916" y="225" width="72" height="56" rx="10" fill="#142A38" stroke="#73DCE8" stroke-opacity="0.7" />
+      <path d="M940 244L931 253L940 262M964 244L973 253L964 262M956 242L948 264" stroke="#73DCE8" stroke-width="2" />
+
+      <rect x="1038" y="225" width="72" height="56" rx="10" fill="#102335" stroke="#3D647B" />
+      <path d="M1060 244V262C1060 269 1088 269 1088 262V244M1060 253C1060 260 1088 260 1088 253" stroke="#9AB9D1" stroke-width="1.5" />
+      <ellipse cx="1074" cy="244" rx="14" ry="5" fill="#102335" stroke="#9AB9D1" stroke-width="1.5" />
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="19.5" stroke="#293B50" />
+</svg>
