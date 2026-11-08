@@ -1,131 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title description">
   <title id="title">David Brandão — Networking and Infrastructure Student</title>
-  <desc id="description">Networks and infrastructure, with cloud on top. A three-site network topology with GRE tunnels between routers, access switches and a redundant pair of multilayer switches, with animated packets travelling between sites.</desc>
-  <style>
-    .tunnel {
-      stroke-dasharray: 6 5;
-      animation: flow 1.4s linear infinite;
-    }
-    @keyframes flow {
-      to { stroke-dashoffset: -11; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .tunnel { animation: none; }
-      .packet { display: none; }
-    }
-  </style>
+  <desc id="description">Networks and infrastructure, with cloud on top. Eight cable strands converging into an Ethernet connector.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D192B" />
-      <stop offset="1" stop-color="#09111E" />
+      <stop stop-color="#111113" />
+      <stop offset="1" stop-color="#0b0b0c" />
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(952 170) rotate(90) scale(230 300)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#163F50" stop-opacity="0.6" />
-      <stop offset="1" stop-color="#163F50" stop-opacity="0" />
-    </radialGradient>
     <linearGradient id="accent" x1="64" y1="0" x2="1136" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#68D8E8" />
-      <stop offset="0.6" stop-color="#68D8E8" stop-opacity="0.18" />
-      <stop offset="1" stop-color="#FFB454" />
+      <stop stop-color="#f66008" />
+      <stop offset="0.6" stop-color="#f66008" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#f66008" />
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#83ADC8" stroke-opacity="0.07" />
-    </pattern>
+    <linearGradient id="fade" x1="660" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0" />
+      <stop offset="1" stop-color="#fff" />
+    </linearGradient>
+    <mask id="strand-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="360">
+      <rect x="660" width="540" height="360" fill="url(#fade)" />
+    </mask>
     <clipPath id="bounds">
       <rect width="1200" height="360" rx="20" />
     </clipPath>
-    <g id="router-glyph" stroke="#73DCE8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M-9 0H9M-9 0L-5 -3M-9 0L-5 3M9 0L5 -3M9 0L5 3" />
-      <path d="M0 -8V8M0 -8L-3 -4M0 -8L3 -4M0 8L-3 4M0 8L3 4" />
-    </g>
   </defs>
 
   <g clip-path="url(#bounds)">
     <rect width="1200" height="360" fill="url(#background)" />
-    <rect x="704" width="496" height="360" fill="url(#glow)" />
-    <rect x="704" width="496" height="360" fill="url(#grid)" />
     <path d="M64 1H1136" stroke="url(#accent)" stroke-width="3" />
-    <path d="M64 284H644" stroke="#243449" />
+    <path d="M64 284H644" stroke="#26262b" />
 
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-      <rect x="64" y="65" width="28" height="3" rx="1.5" fill="#FFB454" />
-      <text x="108" y="72" fill="#73DCE8" font-size="15" font-weight="600" letter-spacing="3">NETWORKING + INFRASTRUCTURE STUDENT</text>
-      <text x="60" y="161" fill="#F0F6FC" font-size="72" font-weight="700" letter-spacing="-2.5">David Brandão</text>
-      <text x="64" y="211" fill="#B5C5D8" font-size="24">Networks and infrastructure,</text>
-      <text x="64" y="243" fill="#B5C5D8" font-size="24">with cloud on top.</text>
+      <rect x="64" y="65" width="28" height="3" rx="1.5" fill="#f66008" />
+      <text x="108" y="72" fill="#f66008" font-size="15" font-weight="600" letter-spacing="3">NETWORKING + INFRASTRUCTURE STUDENT</text>
+      <text x="60" y="161" fill="#ececf0" font-size="72" font-weight="700" letter-spacing="-2.5">David Brandão</text>
+      <text x="64" y="211" fill="#a1a1aa" font-size="24">Networks and infrastructure,</text>
+      <text x="64" y="243" fill="#a1a1aa" font-size="24">with cloud on top.</text>
       <g font-size="13" font-weight="500" letter-spacing="1.6">
-        <text x="64" y="317" fill="#FFB454">CCNA</text>
-        <text x="120" y="317" fill="#486078">/</text>
-        <text x="142" y="317" fill="#A7BCD1">AWS GAMEDAY PORTUGAL 2026</text>
-        <text x="406" y="317" fill="#486078">/</text>
-        <text x="428" y="317" fill="#A7BCD1">AUTOMATION</text>
+        <text x="64" y="317" fill="#f66008">CCNA</text>
+        <text x="120" y="317" fill="#4a4a52">/</text>
+        <text x="142" y="317" fill="#a1a1aa">AWS GAMEDAY PORTUGAL 2026</text>
+        <text x="406" y="317" fill="#4a4a52">/</text>
+        <text x="428" y="317" fill="#a1a1aa">AUTOMATION</text>
       </g>
     </g>
 
-    <g stroke-linecap="round" stroke-linejoin="round">
-      <rect x="752" y="40" width="400" height="276" rx="16" fill="#0C1A2A" fill-opacity="0.7" stroke="#294156" />
-      <path d="M752 80H1152" stroke="#294156" />
-      <circle cx="774" cy="60" r="3" fill="#FFB454" />
-      <circle cx="788" cy="60" r="3" fill="#68D8E8" fill-opacity="0.7" />
-      <circle cx="802" cy="60" r="3" fill="#68D8E8" fill-opacity="0.3" />
-      <text x="1130" y="65" text-anchor="end" fill="#94AFC4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.5">TOPOLOGY / 3 SITES</text>
-
-      <g stroke="#FFB454" stroke-width="1.8" stroke-opacity="0.85">
-        <path class="tunnel" d="M846 124H1058" />
-        <path class="tunnel" d="M838 140L936 198" />
-        <path class="tunnel" d="M1066 140L968 198" />
-      </g>
-      <text x="952" y="114" text-anchor="middle" fill="#94AFC4" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.2">GRE / IPsec · OSPF</text>
-
-      <g stroke="#4A8095" stroke-width="1.8">
-        <path d="M822 140V168M1082 140V168" />
-        <path d="M940 230L918 258M964 230L986 258" />
-        <path d="M940 268H964" stroke="#73DCE8" />
-        <path d="M814 188V204M830 188V204M1074 188V204M1090 188V204" stroke-width="1.4" />
-      </g>
-
-      <rect x="798" y="108" width="48" height="32" rx="8" fill="#142A38" stroke="#73DCE8" stroke-opacity="0.7" />
-      <use href="#router-glyph" x="822" y="124" />
-      <rect x="796" y="168" width="52" height="20" rx="5" fill="#102335" stroke="#3D647B" />
-      <path d="M804 178H812M818 178H826M832 178H840" stroke="#9AB9D1" stroke-width="1.5" />
-      <rect x="808" y="204" width="12" height="9" rx="2" fill="#102335" stroke="#9AB9D1" stroke-width="1.2" />
-      <rect x="824" y="204" width="12" height="9" rx="2" fill="#102335" stroke="#9AB9D1" stroke-width="1.2" />
-      <text x="822" y="232" text-anchor="middle" fill="#A7BCD1" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.5">PULA</text>
-
-      <rect x="1058" y="108" width="48" height="32" rx="8" fill="#142A38" stroke="#73DCE8" stroke-opacity="0.7" />
-      <use href="#router-glyph" x="1082" y="124" />
-      <rect x="1056" y="168" width="52" height="20" rx="5" fill="#102335" stroke="#3D647B" />
-      <path d="M1064 178H1072M1078 178H1086M1092 178H1100" stroke="#9AB9D1" stroke-width="1.5" />
-      <rect x="1068" y="204" width="12" height="9" rx="2" fill="#102335" stroke="#9AB9D1" stroke-width="1.2" />
-      <rect x="1084" y="204" width="12" height="9" rx="2" fill="#102335" stroke="#9AB9D1" stroke-width="1.2" />
-      <text x="1082" y="232" text-anchor="middle" fill="#A7BCD1" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.5">SPLIT</text>
-
-      <rect x="928" y="198" width="48" height="32" rx="8" fill="#142A38" stroke="#FFB454" stroke-opacity="0.8" />
-      <use href="#router-glyph" x="952" y="214" />
-      <rect x="896" y="258" width="44" height="20" rx="5" fill="#102335" stroke="#3D647B" />
-      <rect x="964" y="258" width="44" height="20" rx="5" fill="#102335" stroke="#3D647B" />
-      <g fill="#9AB9D1" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="9" text-anchor="middle">
-        <text x="918" y="271.5">MLS1</text>
-        <text x="986" y="271.5">MLS2</text>
-      </g>
-      <text x="952" y="303" text-anchor="middle" fill="#FFB454" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.5">ZAGREB · HSRP</text>
-
-      <g class="packet">
-        <circle r="3.5" fill="#73DCE8">
-          <animateMotion dur="2.4s" repeatCount="indefinite" begin="0s" path="M846 124H1058" />
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.4s" repeatCount="indefinite" begin="0s" />
-        </circle>
-        <circle r="3.5" fill="#FFB454">
-          <animateMotion dur="2.4s" repeatCount="indefinite" begin="0.8s" path="M1066 140L968 198" />
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.4s" repeatCount="indefinite" begin="0.8s" />
-        </circle>
-        <circle r="3.5" fill="#73DCE8">
-          <animateMotion dur="2.4s" repeatCount="indefinite" begin="1.6s" path="M936 198L838 140" />
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.4s" repeatCount="indefinite" begin="1.6s" />
-        </circle>
-      </g>
+    <g stroke-width="3.5" stroke-linecap="round" mask="url(#strand-mask)">
+      <path d="M660 70 C 830 70, 850 155.0, 1010 155.0 H1100" stroke="#f66008" stroke-opacity="0.9" />
+      <path d="M660 101 C 830 101, 850 162.2, 1010 162.2 H1100" stroke="#ececf0" stroke-opacity="0.32" />
+      <path d="M660 132 C 830 132, 850 169.4, 1010 169.4 H1100" stroke="#f66008" stroke-opacity="0.9" />
+      <path d="M660 163 C 830 163, 850 176.6, 1010 176.6 H1100" stroke="#ececf0" stroke-opacity="0.32" />
+      <path d="M660 194 C 830 194, 850 183.8, 1010 183.8 H1100" stroke="#f66008" stroke-opacity="0.9" />
+      <path d="M660 225 C 830 225, 850 191.0, 1010 191.0 H1100" stroke="#ececf0" stroke-opacity="0.32" />
+      <path d="M660 256 C 830 256, 850 198.2, 1010 198.2 H1100" stroke="#f66008" stroke-opacity="0.9" />
+      <path d="M660 287 C 830 287, 850 205.4, 1010 205.4 H1100" stroke="#ececf0" stroke-opacity="0.32" />
     </g>
+    <rect x="1060" y="143" width="34" height="74" rx="8" fill="#1c1c1f" stroke="#3a3a40" />
+    <rect x="1094" y="136" width="66" height="88" rx="10" fill="#161618" stroke="#3a3a40" />
+    <rect x="1160" y="153.5" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="160.7" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="167.9" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="175.1" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="182.3" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="189.5" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="196.7" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" /><rect x="1160" y="203.9" width="22" height="3" rx="1.5" fill="#f66008" fill-opacity="0.9" />
   </g>
 
-  <rect x="0.5" y="0.5" width="1199" height="359" rx="19.5" stroke="#293B50" />
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="19.5" stroke="#26262b" />
 </svg>
