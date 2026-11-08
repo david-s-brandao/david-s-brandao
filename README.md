@@ -19,6 +19,7 @@ I also work with **AWS**. I finished **1st in Portugal at AWS Community GameDay 
 ## Projects
 
 - **[Automated Multi-Site Network](https://github.com/david-s-brandao/automated-cisco-campus-network)**: three-site lab on physical Cisco hardware with OSPF over GRE/IPsec, VLANs and HSRP, plus Ansible for configuration backups and operational checks.
+- **[Whittle](https://github.com/david-s-brandao/Whittle)**: desktop Git client for Linux in Rust, Tauri 2 and Svelte 5, with a commit graph, line-level staging, a conflict editor and GitHub issues and pull requests.
 - **[Risk Assistant](https://github.com/david-s-brandao/risk_assistant)**: serverless threat-analysis backend built in a 48-hour team hackathon, with SQS and a dead-letter queue, Bedrock and Terraform.
 - **[Lambda Runtime Benchmark](https://github.com/david-s-brandao/runtime_benchmark_lambda)**: Rust vs Java 21 vs Java 21 + SnapStart across 2,000 invocations per configuration, analysed from CloudWatch logs.
 
